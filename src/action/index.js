@@ -5,6 +5,8 @@ export default class ReactReduxGenerator extends Base {
   constructor(...args) {
     super(...args)
 
+    this.conflicter.force = true
+
     this.argument('group', {type: String, required: true})
     this.argument('name', {type: String, required: true})
 

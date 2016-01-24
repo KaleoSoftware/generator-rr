@@ -1,4 +1,5 @@
 
+
 test('<%= group %> action <%= name %>', actionTest(
   actions.<%= name %>,
   {type: types.<%= type %>},

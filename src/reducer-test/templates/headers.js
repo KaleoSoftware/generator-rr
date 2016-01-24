@@ -1,0 +1,1 @@
+import * as <%= actionGroup %>Actions from '../../src/actions/<%= actionGroup %>'

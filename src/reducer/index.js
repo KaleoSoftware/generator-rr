@@ -16,7 +16,7 @@ export default class ReactReduxGenerator extends Base {
 
     this.fs.copyTpl(
       this.templatePath('test.js'),
-      this.destinationPath('test/reducers/'+this.name+'.js'),
+      this.destinationPath('test/reducers/'+this.name+'.spec.js'),
       {name: this.name}
     )
   }

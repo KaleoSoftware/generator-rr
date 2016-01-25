@@ -1,11 +1,16 @@
 {
-  "name": "generator-react-redux",
+  "name": "generator-rr",
   "version": "0.0.1",
   "description": "A React-Redux generator for Yeoman",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
   "files": [
-    "generators/app"
+    "generators/app",
+    "generators/action",
+    "generators/component",
+    "generators/container",
+    "generators/reducer",
+    "generators/reducer-test"
   ],
   "scripts": {
     "build": "ncp src generators && babel src --out-dir generators --ignore **/templates/*.js",

@@ -18,7 +18,7 @@ Example:
 `yo rr:action tags create_tag`
 
 will create this action:
-```
+```javascript
 import * as types from '../constants/ActionTypes'
 
 export function create() {
@@ -39,7 +39,7 @@ Example:
 `yo rr:action TagDescription tags`
 
 will create this component in the components/tags folder:
-```
+```javascript
 import React from 'react'
 
 const style = {
